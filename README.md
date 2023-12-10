@@ -58,7 +58,3 @@ var moduleB = require('./deps/moduleb');
 ```
 
 running: `browserify -t caseify module*.js > module.bundle.js`
-
-causes this output:
-
-    Caseify: /Users/jmoses/example/moduleA.js module ./deps/moduleb not found in case-sensitive environment
